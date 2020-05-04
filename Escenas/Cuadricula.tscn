@@ -1,0 +1,482 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Escenas/Elemento en cuadricula.tscn" type="PackedScene" id=1]
+
+[node name="Cuadricula" type="GridContainer"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -763.0
+margin_top = 48.0
+margin_right = 763.0
+margin_bottom = 512.0
+size_flags_horizontal = 12
+size_flags_vertical = 12
+columns = 9
+
+[node name="pos1" parent="." instance=ExtResource( 1 )]
+margin_right = 166.0
+margin_bottom = 48.0
+
+[node name="pos2" parent="." instance=ExtResource( 1 )]
+margin_left = 170.0
+margin_right = 336.0
+margin_bottom = 48.0
+
+[node name="pos3" parent="." instance=ExtResource( 1 )]
+margin_left = 340.0
+margin_right = 506.0
+margin_bottom = 48.0
+
+[node name="pos4" parent="." instance=ExtResource( 1 )]
+margin_left = 510.0
+margin_right = 676.0
+margin_bottom = 48.0
+
+[node name="pos5" parent="." instance=ExtResource( 1 )]
+margin_left = 680.0
+margin_right = 846.0
+margin_bottom = 48.0
+
+[node name="pos6" parent="." instance=ExtResource( 1 )]
+margin_left = 850.0
+margin_right = 1016.0
+margin_bottom = 48.0
+
+[node name="pos7" parent="." instance=ExtResource( 1 )]
+margin_left = 1020.0
+margin_right = 1186.0
+margin_bottom = 48.0
+
+[node name="pos8" parent="." instance=ExtResource( 1 )]
+margin_left = 1190.0
+margin_right = 1356.0
+margin_bottom = 48.0
+
+[node name="pos9" parent="." instance=ExtResource( 1 )]
+margin_left = 1360.0
+margin_right = 1526.0
+margin_bottom = 48.0
+
+[node name="pos10" parent="." instance=ExtResource( 1 )]
+margin_top = 52.0
+margin_right = 166.0
+margin_bottom = 100.0
+
+[node name="pos11" parent="." instance=ExtResource( 1 )]
+margin_left = 170.0
+margin_top = 52.0
+margin_right = 336.0
+margin_bottom = 100.0
+
+[node name="pos12" parent="." instance=ExtResource( 1 )]
+margin_left = 340.0
+margin_top = 52.0
+margin_right = 506.0
+margin_bottom = 100.0
+
+[node name="pos13" parent="." instance=ExtResource( 1 )]
+margin_left = 510.0
+margin_top = 52.0
+margin_right = 676.0
+margin_bottom = 100.0
+
+[node name="pos14" parent="." instance=ExtResource( 1 )]
+margin_left = 680.0
+margin_top = 52.0
+margin_right = 846.0
+margin_bottom = 100.0
+
+[node name="pos15" parent="." instance=ExtResource( 1 )]
+margin_left = 850.0
+margin_top = 52.0
+margin_right = 1016.0
+margin_bottom = 100.0
+
+[node name="pos16" parent="." instance=ExtResource( 1 )]
+margin_left = 1020.0
+margin_top = 52.0
+margin_right = 1186.0
+margin_bottom = 100.0
+
+[node name="pos17" parent="." instance=ExtResource( 1 )]
+margin_left = 1190.0
+margin_top = 52.0
+margin_right = 1356.0
+margin_bottom = 100.0
+
+[node name="pos18" parent="." instance=ExtResource( 1 )]
+margin_left = 1360.0
+margin_top = 52.0
+margin_right = 1526.0
+margin_bottom = 100.0
+
+[node name="pos19" parent="." instance=ExtResource( 1 )]
+margin_top = 104.0
+margin_right = 166.0
+margin_bottom = 152.0
+
+[node name="pos20" parent="." instance=ExtResource( 1 )]
+margin_left = 170.0
+margin_top = 104.0
+margin_right = 336.0
+margin_bottom = 152.0
+
+[node name="pos21" parent="." instance=ExtResource( 1 )]
+margin_left = 340.0
+margin_top = 104.0
+margin_right = 506.0
+margin_bottom = 152.0
+
+[node name="pos22" parent="." instance=ExtResource( 1 )]
+margin_left = 510.0
+margin_top = 104.0
+margin_right = 676.0
+margin_bottom = 152.0
+
+[node name="pos23" parent="." instance=ExtResource( 1 )]
+margin_left = 680.0
+margin_top = 104.0
+margin_right = 846.0
+margin_bottom = 152.0
+
+[node name="pos24" parent="." instance=ExtResource( 1 )]
+margin_left = 850.0
+margin_top = 104.0
+margin_right = 1016.0
+margin_bottom = 152.0
+
+[node name="pos25" parent="." instance=ExtResource( 1 )]
+margin_left = 1020.0
+margin_top = 104.0
+margin_right = 1186.0
+margin_bottom = 152.0
+
+[node name="pos26" parent="." instance=ExtResource( 1 )]
+margin_left = 1190.0
+margin_top = 104.0
+margin_right = 1356.0
+margin_bottom = 152.0
+
+[node name="pos27" parent="." instance=ExtResource( 1 )]
+margin_left = 1360.0
+margin_top = 104.0
+margin_right = 1526.0
+margin_bottom = 152.0
+
+[node name="pos28" parent="." instance=ExtResource( 1 )]
+margin_top = 156.0
+margin_right = 166.0
+margin_bottom = 204.0
+
+[node name="pos29" parent="." instance=ExtResource( 1 )]
+margin_left = 170.0
+margin_top = 156.0
+margin_right = 336.0
+margin_bottom = 204.0
+
+[node name="pos30" parent="." instance=ExtResource( 1 )]
+margin_left = 340.0
+margin_top = 156.0
+margin_right = 506.0
+margin_bottom = 204.0
+
+[node name="pos31" parent="." instance=ExtResource( 1 )]
+margin_left = 510.0
+margin_top = 156.0
+margin_right = 676.0
+margin_bottom = 204.0
+
+[node name="pos32" parent="." instance=ExtResource( 1 )]
+margin_left = 680.0
+margin_top = 156.0
+margin_right = 846.0
+margin_bottom = 204.0
+
+[node name="pos33" parent="." instance=ExtResource( 1 )]
+margin_left = 850.0
+margin_top = 156.0
+margin_right = 1016.0
+margin_bottom = 204.0
+
+[node name="pos34" parent="." instance=ExtResource( 1 )]
+margin_left = 1020.0
+margin_top = 156.0
+margin_right = 1186.0
+margin_bottom = 204.0
+
+[node name="pos35" parent="." instance=ExtResource( 1 )]
+margin_left = 1190.0
+margin_top = 156.0
+margin_right = 1356.0
+margin_bottom = 204.0
+
+[node name="pos36" parent="." instance=ExtResource( 1 )]
+margin_left = 1360.0
+margin_top = 156.0
+margin_right = 1526.0
+margin_bottom = 204.0
+
+[node name="pos37" parent="." instance=ExtResource( 1 )]
+margin_top = 208.0
+margin_right = 166.0
+margin_bottom = 256.0
+
+[node name="pos38" parent="." instance=ExtResource( 1 )]
+margin_left = 170.0
+margin_top = 208.0
+margin_right = 336.0
+margin_bottom = 256.0
+
+[node name="pos39" parent="." instance=ExtResource( 1 )]
+margin_left = 340.0
+margin_top = 208.0
+margin_right = 506.0
+margin_bottom = 256.0
+
+[node name="pos40" parent="." instance=ExtResource( 1 )]
+margin_left = 510.0
+margin_top = 208.0
+margin_right = 676.0
+margin_bottom = 256.0
+
+[node name="pos41" parent="." instance=ExtResource( 1 )]
+margin_left = 680.0
+margin_top = 208.0
+margin_right = 846.0
+margin_bottom = 256.0
+
+[node name="pos42" parent="." instance=ExtResource( 1 )]
+margin_left = 850.0
+margin_top = 208.0
+margin_right = 1016.0
+margin_bottom = 256.0
+
+[node name="pos43" parent="." instance=ExtResource( 1 )]
+margin_left = 1020.0
+margin_top = 208.0
+margin_right = 1186.0
+margin_bottom = 256.0
+
+[node name="pos44" parent="." instance=ExtResource( 1 )]
+margin_left = 1190.0
+margin_top = 208.0
+margin_right = 1356.0
+margin_bottom = 256.0
+
+[node name="pos45" parent="." instance=ExtResource( 1 )]
+margin_left = 1360.0
+margin_top = 208.0
+margin_right = 1526.0
+margin_bottom = 256.0
+
+[node name="pos46" parent="." instance=ExtResource( 1 )]
+margin_top = 260.0
+margin_right = 166.0
+margin_bottom = 308.0
+
+[node name="pos47" parent="." instance=ExtResource( 1 )]
+margin_left = 170.0
+margin_top = 260.0
+margin_right = 336.0
+margin_bottom = 308.0
+
+[node name="pos48" parent="." instance=ExtResource( 1 )]
+margin_left = 340.0
+margin_top = 260.0
+margin_right = 506.0
+margin_bottom = 308.0
+
+[node name="pos49" parent="." instance=ExtResource( 1 )]
+margin_left = 510.0
+margin_top = 260.0
+margin_right = 676.0
+margin_bottom = 308.0
+
+[node name="pos50" parent="." instance=ExtResource( 1 )]
+margin_left = 680.0
+margin_top = 260.0
+margin_right = 846.0
+margin_bottom = 308.0
+
+[node name="pos51" parent="." instance=ExtResource( 1 )]
+margin_left = 850.0
+margin_top = 260.0
+margin_right = 1016.0
+margin_bottom = 308.0
+
+[node name="pos52" parent="." instance=ExtResource( 1 )]
+margin_left = 1020.0
+margin_top = 260.0
+margin_right = 1186.0
+margin_bottom = 308.0
+
+[node name="pos53" parent="." instance=ExtResource( 1 )]
+margin_left = 1190.0
+margin_top = 260.0
+margin_right = 1356.0
+margin_bottom = 308.0
+
+[node name="pos54" parent="." instance=ExtResource( 1 )]
+margin_left = 1360.0
+margin_top = 260.0
+margin_right = 1526.0
+margin_bottom = 308.0
+
+[node name="pos55" parent="." instance=ExtResource( 1 )]
+margin_top = 312.0
+margin_right = 166.0
+margin_bottom = 360.0
+
+[node name="pos56" parent="." instance=ExtResource( 1 )]
+margin_left = 170.0
+margin_top = 312.0
+margin_right = 336.0
+margin_bottom = 360.0
+
+[node name="pos57" parent="." instance=ExtResource( 1 )]
+margin_left = 340.0
+margin_top = 312.0
+margin_right = 506.0
+margin_bottom = 360.0
+
+[node name="pos58" parent="." instance=ExtResource( 1 )]
+margin_left = 510.0
+margin_top = 312.0
+margin_right = 676.0
+margin_bottom = 360.0
+
+[node name="pos59" parent="." instance=ExtResource( 1 )]
+margin_left = 680.0
+margin_top = 312.0
+margin_right = 846.0
+margin_bottom = 360.0
+
+[node name="pos60" parent="." instance=ExtResource( 1 )]
+margin_left = 850.0
+margin_top = 312.0
+margin_right = 1016.0
+margin_bottom = 360.0
+
+[node name="pos61" parent="." instance=ExtResource( 1 )]
+margin_left = 1020.0
+margin_top = 312.0
+margin_right = 1186.0
+margin_bottom = 360.0
+
+[node name="pos62" parent="." instance=ExtResource( 1 )]
+margin_left = 1190.0
+margin_top = 312.0
+margin_right = 1356.0
+margin_bottom = 360.0
+
+[node name="pos63" parent="." instance=ExtResource( 1 )]
+margin_left = 1360.0
+margin_top = 312.0
+margin_right = 1526.0
+margin_bottom = 360.0
+
+[node name="pos64" parent="." instance=ExtResource( 1 )]
+margin_top = 364.0
+margin_right = 166.0
+margin_bottom = 412.0
+
+[node name="pos65" parent="." instance=ExtResource( 1 )]
+margin_left = 170.0
+margin_top = 364.0
+margin_right = 336.0
+margin_bottom = 412.0
+
+[node name="pos66" parent="." instance=ExtResource( 1 )]
+margin_left = 340.0
+margin_top = 364.0
+margin_right = 506.0
+margin_bottom = 412.0
+
+[node name="pos67" parent="." instance=ExtResource( 1 )]
+margin_left = 510.0
+margin_top = 364.0
+margin_right = 676.0
+margin_bottom = 412.0
+
+[node name="pos68" parent="." instance=ExtResource( 1 )]
+margin_left = 680.0
+margin_top = 364.0
+margin_right = 846.0
+margin_bottom = 412.0
+
+[node name="pos69" parent="." instance=ExtResource( 1 )]
+margin_left = 850.0
+margin_top = 364.0
+margin_right = 1016.0
+margin_bottom = 412.0
+
+[node name="pos70" parent="." instance=ExtResource( 1 )]
+margin_left = 1020.0
+margin_top = 364.0
+margin_right = 1186.0
+margin_bottom = 412.0
+
+[node name="pos71" parent="." instance=ExtResource( 1 )]
+margin_left = 1190.0
+margin_top = 364.0
+margin_right = 1356.0
+margin_bottom = 412.0
+
+[node name="pos72" parent="." instance=ExtResource( 1 )]
+margin_left = 1360.0
+margin_top = 364.0
+margin_right = 1526.0
+margin_bottom = 412.0
+
+[node name="pos73" parent="." instance=ExtResource( 1 )]
+margin_top = 416.0
+margin_right = 166.0
+margin_bottom = 464.0
+
+[node name="pos74" parent="." instance=ExtResource( 1 )]
+margin_left = 170.0
+margin_top = 416.0
+margin_right = 336.0
+margin_bottom = 464.0
+
+[node name="pos75" parent="." instance=ExtResource( 1 )]
+margin_left = 340.0
+margin_top = 416.0
+margin_right = 506.0
+margin_bottom = 464.0
+
+[node name="pos76" parent="." instance=ExtResource( 1 )]
+margin_left = 510.0
+margin_top = 416.0
+margin_right = 676.0
+margin_bottom = 464.0
+
+[node name="pos77" parent="." instance=ExtResource( 1 )]
+margin_left = 680.0
+margin_top = 416.0
+margin_right = 846.0
+margin_bottom = 464.0
+
+[node name="pos78" parent="." instance=ExtResource( 1 )]
+margin_left = 850.0
+margin_top = 416.0
+margin_right = 1016.0
+margin_bottom = 464.0
+
+[node name="pos79" parent="." instance=ExtResource( 1 )]
+margin_left = 1020.0
+margin_top = 416.0
+margin_right = 1186.0
+margin_bottom = 464.0
+
+[node name="pos80" parent="." instance=ExtResource( 1 )]
+margin_left = 1190.0
+margin_top = 416.0
+margin_right = 1356.0
+margin_bottom = 464.0
+
+[node name="pos81" parent="." instance=ExtResource( 1 )]
+margin_left = 1360.0
+margin_top = 416.0
+margin_right = 1526.0
+margin_bottom = 464.0
